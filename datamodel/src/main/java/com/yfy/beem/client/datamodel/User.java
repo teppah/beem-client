@@ -2,7 +2,6 @@ package com.yfy.beem.client.datamodel;
 
 import lombok.Getter;
 import lombok.Setter;
-import retrofit.RetrofitError;
 
 import java.net.InetAddress;
 import java.security.interfaces.RSAPublicKey;
