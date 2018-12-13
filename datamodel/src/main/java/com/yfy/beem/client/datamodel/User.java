@@ -1,14 +1,16 @@
 package com.yfy.beem.client.datamodel;
 
 import lombok.Getter;
+import lombok.Setter;
+import retrofit.RetrofitError;
 
 import java.net.InetAddress;
-import java.security.PublicKey;
 import java.security.interfaces.RSAPublicKey;
 
 @Getter
 public class User {
     private final long id;
+    @Setter
     private String name;
     private final InetAddress address;
     private final RSAPublicKey publicKey;
