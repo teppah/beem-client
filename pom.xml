@@ -5,6 +5,7 @@
     <modules>
         <module>ui</module>
         <module>datamodel</module>
+        <module>crypto</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
